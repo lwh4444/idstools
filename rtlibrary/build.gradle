@@ -28,7 +28,9 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
-
     //utilcode
-    implementation 'com.blankj:utilcode:1.25.9'
+    api 'com.blankj:utilcode:1.25.9'
+
+    //zxing 二维码工具
+    api 'cn.yipianfengye.android:zxing-library:2.2'
 }
